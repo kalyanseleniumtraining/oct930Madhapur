@@ -8,6 +8,8 @@ import org.openqa.selenium.firefox.internal.ProfilesIni;
 public class FFPExample {
 
 	public static void main(String[] args) {
+		
+		
 
 		ProfilesIni ini = new ProfilesIni();
 
