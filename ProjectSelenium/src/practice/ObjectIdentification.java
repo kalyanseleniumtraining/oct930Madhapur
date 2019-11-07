@@ -10,7 +10,7 @@ public class ObjectIdentification {
 	public static void main(String[] args) {
 
 		WebDriver driver = new ChromeDriver();
-		driver.get("http://flipkart.com");
+		driver.get("http://adsfadsfsd");
 		WebElement ebaySrchBtn = driver.findElement(By.name("q"));
 		ebaySrchBtn.click();
 
