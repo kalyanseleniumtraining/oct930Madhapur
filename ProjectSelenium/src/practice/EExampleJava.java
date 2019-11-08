@@ -4,16 +4,18 @@ public class EExampleJava {
 
 	public static void main(String[] args) {
 
-		String str = null;
-
+		int i = 10;
+		int j = 0;
 		try {
-			System.out.println(str.length());
-			System.out.println("I am inside try");
-		} catch (Exception e) {
-			System.out.println(e.getMessage());
-		}
-		System.out.println("Prog ended");
 
+			System.out.println(i / j);
+		} catch (NullPointerException npe) {
+			System.out.println(npe.getMessage());
+		}
+
+		finally {
+			System.out.println("I am the last line of the prog");
+		}
 	}
 
 }
