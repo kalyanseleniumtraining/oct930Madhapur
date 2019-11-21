@@ -12,20 +12,17 @@ public class AllLinksExample {
 	public static void main(String[] args) {
 
 		WebDriver driver = new ChromeDriver();
-		driver.get("http://google.com");
-		List<WebElement> allLinks = driver.findElements(By.tagName("a"));
-
-		int count = 0;
+		driver.get("http://amazon.com");
+		List<WebElement> allLinks = 
+				driver.findElements(By.tagName("a"));
+         int count = 0;
 		System.out.println(allLinks.size());
-
-		// for loop
-
-		for (int i = 0; i < allLinks.size(); i++) {// 27
-			if (!allLinks.get(i).getText().equals("")) {// not empty
+        for (int i = 0; i < allLinks.size(); i++) {
+			
+			if (!allLinks.get(i).getText().equals("")) {
 				System.out.println(allLinks.get(i).getText());
 				count = count + 1;
-
-			}
+           }
 
 		}
 		System.out.println("Total no of links with text are ");
