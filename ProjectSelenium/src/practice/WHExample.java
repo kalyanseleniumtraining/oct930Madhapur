@@ -12,7 +12,8 @@ public class WHExample {
 
 		for (String id : ids) {
 			d.switchTo().window(id);
-			if (d.getTitle().equals(windowToClose)) {
+			String title=d.getTitle();
+			if (title.equals(windowToClose)) {
 				d.close();
 			}
 		}
@@ -25,6 +26,7 @@ public class WHExample {
 		WHExample obj=new WHExample();
 		obj.closeWindow(d, "Tech Mahindra");
 		obj.closeWindow(d, "LnT");
+		obj.closeWindow(d,"Xoriant");
 
 	}
 
