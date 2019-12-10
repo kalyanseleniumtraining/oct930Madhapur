@@ -37,5 +37,7 @@
 	<classpathentry kind="lib" path="C:/Users/S@f&apos;/Desktop/poi-3.9/lib/commons-logging-1.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/S@f&apos;/Desktop/poi-3.9/lib/junit-3.8.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/S@f&apos;/Desktop/poi-3.9/lib/log4j-1.2.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/S@f&apos;/Downloads/mysql-connector-java-8.0.17.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
