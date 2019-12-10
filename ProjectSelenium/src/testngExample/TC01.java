@@ -15,5 +15,7 @@ public class TC01 {
 		driver.get("http://google.com");
 		String title = driver.getTitle();
 		Assert.assertEquals(title, "Googleeeee");
+		
+		
 	}
 }
