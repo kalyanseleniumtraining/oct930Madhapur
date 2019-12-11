@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Google]">
-  <test name="TC01-Verify google page(failed)">
+  <parameter name="expected" value="Gmail - Free Storage and Email from Google"/>
+  <parameter name="url" value="http://gmail.com"/>
+  <test name="TC02-Verify gmail page(failed)">
+    <parameter name="expected" value="Gmail - Free Storage and Email from Google"/>
+    <parameter name="url" value="http://gmail.com"/>
     <classes>
       <class name="testngExample.TC01">
         <methods>
-          <include name="f"/>
+          <include name="ts03" invocation-numbers="0"/>
         </methods>
       </class> <!-- testngExample.TC01 -->
     </classes>
-  </test> <!-- TC01-Verify google page(failed) -->
+  </test> <!-- TC02-Verify gmail page(failed) -->
 </suite> <!-- Failed suite [Google] -->
