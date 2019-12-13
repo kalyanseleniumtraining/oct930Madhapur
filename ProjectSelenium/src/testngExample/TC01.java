@@ -1,48 +1,18 @@
 package testngExample;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
-import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import utils.PrePostConditions;
 
+public class TC01 extends PrePostConditions {
 
-public class TC01 {
-	WebDriver driver=null;
-	
 	@Test
-    public void ts01()
-    {
-		 driver = new ChromeDriver();
-    }
-	
-	@Parameters("url")
-	@Test
-    public void ts02(String url)
-    {
-		driver.get(url);
-    }
-	
-	
-	@Parameters("expected")
-	@Test
-    public void ts03(String expected)
-    {
+	public void ts01() {
+
 		String title = driver.getTitle();
-		Assert.assertEquals(title,expected );
-    }
-	
-	
-	@Test
-    public void ts04()
-    {
-		driver.quit();
-    }
-	
-	
-	
-	
-	
-	
+		Assert.assertEquals(title, "Google");
+
+	}
+
 }
