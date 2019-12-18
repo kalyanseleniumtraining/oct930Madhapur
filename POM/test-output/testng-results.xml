@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="24785" started-at="2019-12-17T05:20:20Z" finished-at="2019-12-17T05:20:45Z">
+  <suite name="Suite" duration-ms="26562" started-at="2019-12-18T04:44:45Z" finished-at="2019-12-18T04:45:12Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="24785" started-at="2019-12-17T05:20:20Z" finished-at="2019-12-17T05:20:45Z">
+    <test name="Test" duration-ms="26562" started-at="2019-12-18T04:44:45Z" finished-at="2019-12-18T04:45:12Z">
       <class name="testcases.TC01">
-        <test-method status="FAIL" signature="f()[pri:0, instance:testcases.TC01@2b98378d]" name="f" duration-ms="24774" started-at="2019-12-17T10:50:20Z" finished-at="2019-12-17T10:50:45Z">
+        <test-method status="FAIL" signature="f()[pri:0, instance:testcases.TC01@2b98378d]" name="f" duration-ms="26551" started-at="2019-12-18T10:14:45Z" finished-at="2019-12-18T10:15:12Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Cannot locate element with text: Charity
@@ -24,7 +24,7 @@ System info: host: 'Sf-PC', ip: '192.168.2.164', os.name: 'Windows 7', os.arch: 
 Driver info: driver.version: unknown
 	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:150)
 	at pages.LaunchPage.selectItemFromEbayDropDownBx(LaunchPage.java:25)
-	at testcases.TC01.f(TC01.java:32)
+	at testcases.TC01.f(TC01.java:33)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
